@@ -48,7 +48,7 @@ public class Main extends GameApplication {
     @Override
     protected void initGame() {
         candies = new Entity[GRID_SIZE][GRID_SIZE];
-        int x = 50, y = 50;
+        int x = 50, y = 40;
 
         // Initialize candy grid with random candies
         for (int i = 0; i < GRID_SIZE; i++) {
